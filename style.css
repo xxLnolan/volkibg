@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.banniere {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/images.jpg);
+    background-size: cover;
+}
+
+.logo {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #08defd;
+}
